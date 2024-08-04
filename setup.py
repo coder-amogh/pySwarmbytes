@@ -6,13 +6,13 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = "0.0.2"
+VERSION = "0.1.0"
 DESCRIPTION = "UNOFFICIAL Python bindings for Swarmbytes Dashboard API"
 LONG_DESCRIPTION = "A package that allows you to connect to Swarmbytes API and interact with your data."
 
 # Setting up
 setup(
-    name = "pyHoneygain",
+    name = "pySwarmbytes",
     version = VERSION,
     author = "coder-amogh (Amogh Datar)",
     description = DESCRIPTION,
