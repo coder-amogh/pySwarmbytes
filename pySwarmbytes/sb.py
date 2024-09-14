@@ -153,6 +153,10 @@ class Swarmbytes:
 		"""Gets monthly usable totals. """
 		return self.__make_ajax_request("GET", "/monthly_usable_totals").json()
 
+	def get_daily_usable_totals(self) -> Dict[str, Any]:
+		"""Gets daily usable totals. """
+		return self.__make_ajax_request("GET", "/daily_usable_totals").json()
+
 	def get_api_key(self):
 		r = self.__make_dashboard_request("GET", "/")
 
